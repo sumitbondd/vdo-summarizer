@@ -123,7 +123,7 @@ def main():
     video_file = st.file_uploader(
         "Upload a video file",
         type=ALLOWED_EXTENSIONS,
-        help="Upload a video (MP4, MOV, or AVI) for AI analysis. Maximum size: 100MB"
+        help="Upload a video (MP4, MOV, or AVI) for AI analysis. Maximum size: 200MB"
     )
 
     if video_file:
